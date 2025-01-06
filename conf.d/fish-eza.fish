@@ -1,5 +1,5 @@
 function __fish_eza_install --on-event fish-eza_install
-    set -Ux __FISH_EZA_BASE_ALIASES l ll lg le lt lc lo
+    set -Ux __FISH_EZA_BASE_ALIASES l ll lg le ls lt lc lo
     set -Ux __FISH_EZA_EXPANDED a d i id aa ad ai aid aad aai aaid
     set -Ux __FISH_EZA_EXPANDED_OPT_NAME LA LD LI LID LAA LAD LAI LAID LAAD LAAI LAAID
     set -Ux __FISH_EZA_OPT_NAMES
@@ -13,6 +13,7 @@ function __fish_eza_install --on-event fish-eza_install
     set -Ux EZA_LL_OPTIONS "--long"
     set -Ux EZA_LG_OPTIONS "--git" "--git-ignore" "--long"
     set -Ux EZA_LE_OPTIONS "--extended" "--long"
+    set -Ux EZA_LS_OPTIONS
     set -Ux EZA_LT_OPTIONS "--tree" "--level"
     set -Ux EZA_LC_OPTIONS "--across"
     set -Ux EZA_LO_OPTIONS "--oneline"

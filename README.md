@@ -19,6 +19,7 @@ fisher install plttn/fish-eza
 | alias            | default options                                                            |
 | ---------------- | -------------------------------------------------------------------------- |
 | `l`              | `eza`                                                                      |
+| `ls`             | `eza`                                                                      |
 | `ll`             | `eza --group --header --group-directories-first --long`                    |
 | `ll` in git repo | `eza --group --header --group-directories-first --long --git`              |
 | `lg`             | `eza --group --header --group-directories-first --long --git --git-ignore` |
@@ -33,12 +34,12 @@ Each base alias has its extended versions with additional options.
 
 An extended alias is one of the form `<BASE ALIAS><SUFFIX>` with suffix from the following:
 
-| Extend suffix | Default options                                    |
+| Extend suffix | Default options                            |
 | ------------- | ------------------------------------------ |
 | `a`           | `--all --binary`                           |
 | `d`           | `--only-dirs`                              |
-| `i`           | `--icons`                      |
-| `id`          | `--icons --only-dirs`                                  |
+| `i`           | `--icons`                                  |
+| `id`          | `--icons --only-dirs`                      |
 | `aa`          | `--all --binary --all`                     |
 | `ad`          | `--all --binary --only-dirs`               |
 | `ai`          | `--all --binary --icons`                   |
